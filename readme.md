@@ -30,11 +30,11 @@ Ensure a fair and strategic gameplay experience with these rules:
 - **Smart Wallet Pairing:** Seamlessly pair your smart wallet with the game to manage your NFT cards and in-game assets. Ensure the security and convenience of your digital possessions.
 
 - **Live Interaction with Smart Contract:** Interact directly with the smart contract powering the game. Experience transparency and security as you participate in the game's ecosystem.
-
-
 ## Contract Deployment
 
-The game's smart contract is currently deployed on the Fuji Testnet at the following address: `0xEDC6933cC25b373Cce9706D4391695FF0BA5a0C8`. Join the testnet to explore the game and provide valuable feedback.
+The game's smart contract is currently deployed on the Fuji Testnet at the following address: `0xa92684953e9b3a73b71ed441f35fd6ef79fcf0d8`. Join the testnet to explore the game and provide valuable feedback.
+[Link for explorer](https://sepolia.scrollscan.dev/address/0xa92684953e9b3a73b71ed441f35fd6ef79fcf0d8)
+
 
 ## Upcoming Features
 
