@@ -1,22 +1,35 @@
-# Avax Gods - Online Multiplayer Web3 NFT Card Game
-![Gameplay](https://i.ibb.co/4P2C08x/image.png)
+# Online Multiplayer Web3 NFT Card Game
 
-### Launch your development career with project-based coaching on [JS Mastery Pro](https://www.jsmastery.pro).
+![Game Banner](https://i.ibb.co/4P2C08x/image.png)
 
-## Instructions on setting up the Web3 part of the project
-0. `cd web3`
-1. `npx hardhat` -> y → typescript → enter → enter
-2. `npm install @openzeppelin/contracts dotenv @nomiclabs/hardhat-ethers` + Hardhat packages `npm install --save-dev "hardhat@^2.12.0" "@nomicfoundation/hardhat-toolbox@^2.0.0"`
-3. Install [Core](https://chrome.google.com/webstore/detail/core/agoakfejjabomempkjlepdflaleeobhb), a Metamask smart wallet alternative built for Avalanche dApps
-  1. Turn on the testnet mode by: opening up the Core extension -> click the hamburger menu on the top left -> go to advanced -> turn on the testnet mode
-4. Fund your wallet from the [Avax Faucet](https://faucet.avax.network/)
-5. Create a `.env` file and specify a PRIVATE_KEY variable.
-6. To get to the private key, do the following steps:
-  1. Open up the Core extension -> click the hamburger menu on the top left -> go to security and privacy -> click show recovery phase -> enter your password -> copy the phrase -> go to [wallet.avax.network](https://wallet.avax.network/) -> click access wallet -> choose mnemonic key phrase -> paste what the words we’ve copied from Core -> on the sidebar click manage keys -> view c-chain private key -> copy -> paste it in the .env file
-7. Copy the `hardhat.config.ts` file from the GitHub gist down in the description
-8. Copy the `deploy.ts` script from the GitHub gist down in the description
-9. Copy the `AvaxGods.sol` smart contract code from the GitHub gist down in the description
-10. Compile the contract by running the `npx hardhat compile` command
-11. Deploy the smart contract on the Fuji test network by running the `npx hardhat run scripts/deploy.ts --network fuji` command
-  Move the `/artifacts/contracts/AVAXGods.json` file to the `/contract` folder on the frontend
-  Copy the address of the deployed contract from the terminal and paste it into the `/contract/index.js` file of the frontend application
+Welcome to the Online Multiplayer Web3 NFT Card Game, powered by Avalanche! This game allows you to create your own characters, engage in live battles, and choose your battleground. Experience real-time battles with stunning designs and interactive gameplay.
+
+## Features
+
+- **Create Your Characters:** Unleash your creativity and bring your unique characters to life. Customize their attributes, skills, and appearances to create a formidable deck.
+
+- **Create and Join Live Battles:** Enter the arena and challenge other players from around the world. Create your battles or join existing ones to prove your skills and dominate the game.
+
+- **Choose Your Battle Ground:** Select from a variety of captivating battle arenas. Each battleground offers unique strategies and challenges, adding depth to your gameplay experience.
+
+- **Real-Time Battles with Stunning Design:** Immerse yourself in the thrilling world of intense battles. Experience visually stunning designs that enhance your gameplay and make every encounter memorable.
+
+- **Interactive Gameplay:** Engage in an interactive gameplay experience, where your decisions and strategies will determine the outcome of each battle. Plan your moves wisely and outsmart your opponents.
+
+- **Smart Wallet Pairing:** Seamlessly pair your smart wallet with the game to manage your NFT cards and in-game assets. Ensure the security and convenience of your digital possessions.
+
+- **Live Interaction with Smart Contract:** Interact directly with the smart contract powering the game. Experience transparency and security as you participate in the game's ecosystem.
+## Contract Deployment
+
+The game's smart contract is currently deployed on the Fuji Testnet at the following address: `0xEDC6933cC25b373Cce9706D4391695FF0BA5a0C8`. Join the testnet to explore the game and provide valuable feedback.
+## Upcoming Features
+
+We're constantly working to enhance your gaming experience. Here are some exciting features we have in the pipeline:
+
+1. **Card Trading Marketplace:** Expand your collection, strategize, and engage in the game's economy with a player-driven marketplace where you can trade NFT cards, unlock rare ones, and build the ultimate deck.
+
+2. **Tournaments and Leaderboards:** Compete in thrilling tournaments, climb the ranks, and earn rewards as you showcase your skills. Check the leaderboards to see where you stand and become a legendary champion of the game.
+
+3. **Special Events and Limited-Time Content:** Experience the excitement of seasonal events, holiday-themed battles, and exclusive card releases. Don't miss out on these limited-time opportunities to earn rare rewards and be part of the ever-evolving world of the game.
+
+Stay tuned for these upcoming features that will take your gaming experience to new heights!
